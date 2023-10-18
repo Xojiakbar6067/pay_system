@@ -1,11 +1,11 @@
 #ukazivaem yazik programirovaniya
-FROM python:3.8
+FROM python:3.10
 
 #
 WORKDIR /pay_system
 
 #kopirovat vse papki/fayli b doker
-COPY . /pay-systeam
+COPY . /pay_system
 
 #ustanovka neobhodimoh komponentov
 RUN pip install -r requirements.txt
